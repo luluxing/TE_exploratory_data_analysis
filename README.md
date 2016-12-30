@@ -77,8 +77,7 @@ The website is: http://bioinfo.cau.edu.cn/agriGO/index.php.
 
 Arabidopsis
 
-![alt text][./rawdata/arabidopsis_TAIR10/agriGO_left_500/biological\ process.png?raw=true "Biological process"]
-
+[[https://github.com/luluxing/TE_exploratory_data_analysis/blob/master/rawdata/arabidopsis_TAIR10/agriGO_left_500/biological%20process.png|alt=octocat]]
 
 
   

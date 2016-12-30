@@ -79,5 +79,40 @@ Arabidopsis
 
 ![alt tag](https://github.com/luluxing/TE_exploratory_data_analysis/blob/master/rawdata/arabidopsis_TAIR10/agriGO_left_500/biological%20process.png)
 
+Almost all GO annotations are underrepresented except for excellular region, which is the only significant term in all GO terms. This verifies the above deduction, that TEs tend to move away from the genes.
 
-  
+![alt tag](https://github.com/luluxing/TE_exploratory_data_analysis/blob/master/rawdata/arabidopsis_TAIR10/agriGO_left_500/significant.png)
+
+Rice
+
+![alt tag](https://github.com/luluxing/TE_exploratory_data_analysis/blob/master/rawdata/9311_rice/agriGO_left_500/go.png)
+
+There are 243 GO annotations that are significant. The majority of the GO annotations are overrepresented. Those genes are prone to have TEs in their promoters and may be regulated by TEs. There are also underrepresented GO annotations: cellular process, metabolic process, transcription regulator activity, catalytic activity and binding. For GO annotations in cellular component, all six significant terms are overrepresented.
+
+![alt tag](https://github.com/luluxing/TE_exploratory_data_analysis/blob/master/rawdata/9311_rice/agriGO_left_500/significant.png)
+
+Maize
+
+![alt tag](https://github.com/luluxing/TE_exploratory_data_analysis/blob/master/rawdata/maize/agriGO_left_500/go.png)
+
+The GO annotations in biological process and cellular components are overrepresented while in molecular function, conditions are complexed. There are five GO terms that are significant enriched: membrane, cell part, cell, catalytic activity and transferase activity.
+
+![alt tag](https://github.com/luluxing/TE_exploratory_data_analysis/blob/master/rawdata/maize/agriGO_left_500/significant.png)
+
+Tomato
+
+![alt tag](https://github.com/luluxing/TE_exploratory_data_analysis/blob/master/rawdata/tomato_ITAG2.4/agriGO_left_500/go.png)
+
+There are four GO annotaions significantly higher than the reference: ncRNA processing, ncRNA metabolic process, tRNA processing and tRNA metabolic process, all are involved in RNA processing. This may imply that TEs are likely to regulated the ncRNA process.
+
+![alt tag](https://github.com/luluxing/TE_exploratory_data_analysis/blob/master/rawdata/tomato_ITAG2.4/agriGO_left_500/significant.png)
+
+## Conclusions
+
+* Maize have a relatively larger proportion of TEs in the genome.
+* Genes that have TEs in near 3' region are fewer than the genes that have TEs in promoter region except for maize.
+* The more TEs in the genome, the more genes that have TEs in their nearby regions.
+* Real genes have far fewer TEs in their nearby regions than simulated genes (P-value < 0.01).
+* TEs tend to be restrained in the intergenic regions.
+* Different TE superfamilies have different composition parts in different plants. Although maize has the most TEs, there is not a single family that dominates.
+* TEs are likely to affect gene annotation of extracellular regions in Arabidopsis; membrane, cell part, cell, catalytic activity and transferase activity in maize; ncRNA processing, ncRNA metabolic process, tRNA processing and tRNA metabolic process in tomato. While in rice, TEs may affect a large number of genes, like small molecule metabolic process, like small molecule biosynthetic process and RNA metabolic process.

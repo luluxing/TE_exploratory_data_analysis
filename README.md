@@ -69,5 +69,16 @@ Tomato
   
 The composition in each plant is totally different. Different TE superfamilies may result from different ancestors. This could be investigated further to decide their evolution branch.
 
+## GO analysis of genes which have TEs in their promoters (500bp upstream of start codon).
+
+I use agriGO which is described here: Zhou Du, Xin Zhou, Yi Ling, Zhenhai Zhang, and Zhen Su agriGO: a GO analysis toolkit for the agricultural community Nucleic Acids Research Advance Access published on July 1, 2010, DOI 10.1093/nar/gkq310. Nucl. Acids Res. 38: W64-W70. 
+
+The website is: http://bioinfo.cau.edu.cn/agriGO/index.php.
+
+Arabidopsis
+
+![alt text][./rawdata/arabidopsis_TAIR10/agriGO_left_500/biological\ process.png?raw=true "Biological process"]
+
+
 
   

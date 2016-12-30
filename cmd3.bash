@@ -1,10 +1,10 @@
-"""
-	Calculte the percent of protein-coding genes that have TEs within
-	the 500/1000/2000 bp of stop codons.
-"""
-"""
-	Arabidopsis thaliana (TAIR10)
-"""
+#####################################################################
+##	Calculte the percent of protein-coding genes that have TEs within
+##	the 500/1000/2000 bp of stop codons.
+#####################################################################
+#####################################################################
+##	Arabidopsis thaliana (TAIR10)
+#####################################################################
 cd rawdata/arabidopsis_TAIR10
 
 # The number of total protein-coding genes
@@ -26,9 +26,9 @@ bedtools intersect -u -wa -a tmp2000.gff -b TAIR10_TE.gff | wc -l  # 6843
 # 6843/27206=25.2%
 
 
-"""
-	Zea mays (B73)
-"""
+#####################################################################
+##	Zea mays (B73)
+#####################################################################
 cd rawdata/maize
 
 # The number of total protein-coding genes
@@ -52,9 +52,9 @@ bedtools intersect -u -wa -a tmp2000.gff -b tmp2.gff | wc -l  # 32102
 # 26016/39024=66.7%
 # 32102/39024=82.3%
 
-"""
-	Oryza sativa (9311)
-"""
+#####################################################################
+##	Oryza sativa (9311)
+#####################################################################
 cd rawdata/9311_rice
 
 # The number of total protein-coding genes
@@ -78,9 +78,9 @@ bedtools intersect -u -wa -a tmp2000.gff -b tmp2.gff | wc -l  # 26636
 # 19401/37878=51.2%
 # 26636/37878=70.3%
 
-"""
-	Solanum lycopersicum (ITAG2.4)
-"""
+#####################################################################
+##	Solanum lycopersicum (ITAG2.4)
+#####################################################################
 cd rawdata/tomato_ITAG2.4
 
 # The number of total protein-coding genes

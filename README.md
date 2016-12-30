@@ -28,12 +28,12 @@ The simulation is run for 1000 times each.
 
  |Arabidopsis|Maize|Rice|Tomato
 ---|---|---|---|---
-5'-500bp|25.9%||46.9%|
-3'-500bp|25.9%||46.9%|
-5'-1000bp|30.4%||58.6%|
-3'-1000bp|30.4%||58.6%|
-5'-2000bp|37.8%||72.6%|
-3'-2000bp|37.8%||72.6%|
+5'-500bp|25.9%|87.6%|46.9%|43.6%
+3'-500bp|25.9%|87.6%|46.9%|43.5%
+5'-1000bp|30.4%|91.2%|58.6%|48.9%
+3'-1000bp|30.4%|91.2%|58.6%|48.9%
+5'-2000bp|37.8%|95.0%|72.6%|55.9%
+3'-2000bp|37.8%|95.0%|72.6%|55.8%
 
 All the simulated results are significanyly (P-value < 0.01) higher than the true genome results. This implies that during the process of evolution, transposons tend to move away from both the 5' and 3' of the genes.
 

@@ -37,6 +37,14 @@ The simulation is run for 1000 times each.
 
 All the simulated results are significanyly (P-value < 0.01) higher than the true genome results. This implies that during the process of evolution, transposons tend to move away from both the 5' and 3' of the genes.
 
+## The percent of TEs that intersect with protein-coding genes.
+
+ |Arabidopsis|Maize|Rice|Tomato
+---|---|---|---|---
+% of TEs|12.7%|5.4%|8%|6.9%
+
+This implies that TEs are unlikely to be intersected with protein-coding genes, and likely to be located between them.
+
 ## Composition of the largest 5 kinds of TEs in the whole genome. 
 
 Arabidopsis
